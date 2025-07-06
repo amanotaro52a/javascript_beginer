@@ -1,10 +1,10 @@
 const heading = document.querySelector('#heading');
 const keyframes = {
-  opacity: [0,1],
-  translate:['0 50px',0],
+  opacity: [0, 1],
+  rotate: ['x 360deg', 0],
 };
 const options = {
-  duration: 2000,
-  easing: 'ease',  
+  duration: 1000,
+  easing: 'ease',
 };
 heading.animate(keyframes,options);
